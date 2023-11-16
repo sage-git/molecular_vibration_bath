@@ -1,0 +1,21 @@
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5          0.83333333  
+
+[ atomtypes ]
+; name    at.num    mass    charge ptype  sigma      epsilon
+HW_tip4p     1       2.01355  0.0000  A   0.00000e+00  0.00000e+00
+OW_tip4p     8      16.00    0.0000  A   3.15365e-01  6.48520e-01
+MW           0       0.0000  0.0000  D   0.00000e+00  0.00000e+00
+OW_spc       8      15.9994  0.0000  A   3.16557e-01  6.50629e-01
+HW_spc       1       2.01355 0.0000  A   0.00000e+00  0.00000e+00
+
+#include "spce.itp"
+
+[ system ]
+; Name
+water 216
+
+[ molecules ]
+; Compound       #mols
+SOL              216
